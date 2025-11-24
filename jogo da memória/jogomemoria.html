@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clash Royale Memory Game</title>
+    <link rel="stylesheet" href="memoria.css">
+</head>
+<body>
+    <div class="game-container">
+        <h1>👑 Jogo da Memória Clash Royale 🛡️</h1>
+        <div id="game-board" class="board-facil">
+            </div>
+        <div id="message" class="message"></div>
+        <button onclick="startGame(6, 'board-facil')">Recomeçar (Fácil)</button>
+        <button onclick="startGame(10, 'board-medio')">Médio (10 Pares)</button>
+        <button onclick="startGame(18, 'board-dificil')">Difícil (18 Pares)</button>
+    </div>
+
+    <script src="memoria.js"></script>
+</body>
+</html>
